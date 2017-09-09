@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emojify</title>
+  <link rel="stylesheet" href="static/css/index.css">
+<body>
+  <main>
+    {% if label %}
+    <h1>{{ label }}</h1>
+    {% else %}
+    <h1>🔮</h1>
+    {% endif %}
+    <form action="" method="post" enctype="multipart/form-data">
+      {% if image_url %}
+      <p><img src="{{ image_url }}"></p>
+      {% endif %}
+      <p><input type="file" name="image"></p>
+      <p><button type="submit">✨ Emojify ✨ </button></p>
+    </form>
+  </main>

@@ -1,0 +1,70 @@
+html {
+  min-height: 100%;
+  background: #24C6DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+html, body {
+  font: 20px/1.5 sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+body, input, button {
+  font: inherit;
+}
+body {
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  font-size: 6rem;
+  margin: 0;
+}
+main {
+  width: 100%;
+  max-width: 20rem;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+p {
+  margin: 0 0 1.5rem;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+input[type=file] {
+  height: 3rem;
+  overflow: hidden;
+}
+input[type=file]::-webkit-file-upload-button {
+  display: block;
+  background: white;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 0 1.5rem;
+  line-height: 3;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+button {
+  background: gold;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 0 1.5rem;
+  line-height: 3;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+input[type=file], button, img {
+  box-sizing: border-box;
+  width: 100%;
+}
+.label {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}

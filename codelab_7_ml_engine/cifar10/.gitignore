@@ -1,0 +1,7 @@
+*.egg-info
+*.pyc
+/build
+/cifar10_*
+/dist
+/venv/
+__pycache__/
