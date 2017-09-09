@@ -1,5 +1,5 @@
 # SIMPLE MNIST CNN
-# copyright https://www.tensorflow.org/tutorials/layers
+# Source: https://www.tensorflow.org/tutorials/layers
 
 def cnn_model_fn(features, labels, mode):
   """Model function for CNN."""
