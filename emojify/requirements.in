@@ -1,5 +1,0 @@
-flask
-google-api-python-client
-gunicorn
-oauth2client
-pillow
